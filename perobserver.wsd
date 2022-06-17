@@ -1,0 +1,59 @@
+/' PER-OBSERVER '/
+//inherited from https://github.com/RafaelKuebler/PlantUMLDesignPatterns/blob/master/observer.txt
+//author = Dr Bheemaiah Anil K (c) Forever
+
+@startuml
+
+interface Subject {
+    + attach(in o : Observer)
+    + detach(in o : Observer)
+    + notify()
+}
+
+interface PerObserver {
+    + attach(in o : Observer)
+    + detach(in o : Observer)
+    + notify()
+}
+class ConcreteSubject {
+    - subjectState
+}
+
+class ConcretePerObserver  {
+    - storage
+    - updateSynchronous
+    -updateAsynchronous
+    + ConcretePerObserver(in s : Subject)
+    + update()
+}
+
+interface Observer {
+    + update()
+}
+
+class ConcreteObserver {
+    - observerState
+    + update()
+}
+
+hide empty members
+
+Subject -> Observer : notifies
+PerObserver -> Observer : notifies
+Subject <|-- ConcreteSubject
+Observer <|-- ConcreteObserver
+ConcreteSubject <- ConcreteObserver : observes
+
+note as N1
+    <b><color:royalBlue>Observer</color></b>
+    <b>Type:</b> Behavioral
+    Define a one-to-many dependency between
+    objects so that when one object changes
+    state, all its dependents are notified and
+    updated automatically.
+end note
+
+@enduml
+
+
+
