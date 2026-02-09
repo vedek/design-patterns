@@ -1,3 +1,28 @@
++16
+Lines changed: 16 additions & 0 deletions
+
+
+Original file line number	Original file line	Diff line number	Diff line change
+@@ -1,2 +1,18 @@
+# design-patterns
+A collection of design patterns, invented by me, marketed by the Trio(TM), on CoreDump.
+Per-Observer
+State Pattern
+ParaGenerator
+Generator
+Iterator
+Reactor
+Imploder
+Disassembler
+Parser
+CAS
+Balancer
+Positifier
+Repl
+Optimism
+Wall
+Query
+
 # Perobserver Pattern
 
 ![Perobserver UML](perobserver.png)
