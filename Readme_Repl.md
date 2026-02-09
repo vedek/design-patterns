@@ -93,7 +93,7 @@ See **repl.png** for a visual overview of component interactions.
 | Evaluator  | Executes input in a specific runtime |
 | Reactor    | Handles asynchronous and reactive flows |
 | Printer    | Renders results |
-| State      | Persists execution context |
+| State      | Persists execution context | Provable Computing
 
 ---
 
