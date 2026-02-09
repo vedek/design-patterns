@@ -60,5 +60,15 @@ The pattern consists of:
 
 ---
 
-##Acknowledgement.
-Atlassian for Startups. CoderdojoStPaul2, part of Mother Divine Seattle, an incorporated Non Profit Corporation, HQ in Seattle is a Non Profit partner of Microsoft Inc and Atlassian Inc, Twilio Inc.
+```markdown
+## Acknowledgements
+
+We gratefully acknowledge **Atlassian for Startups** for providing tools and
+resources that support early-stage development and collaborative innovation.
+
+**CoderdojoStPaul2**, part of **Mother Divine Seattle**, an
+incorporated non-profit corporation headquartered in Seattle.  
+CoderdojoStPaul2, Mother Divine Seattle is a non-profit partner of **Microsoft Inc.**,
+**Atlassian Inc.**, and **Twilio Inc.**, supporting education, community learning,
+and technology empowerment.
+```
